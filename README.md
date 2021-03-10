@@ -1,6 +1,6 @@
 # Weather-App-Using-Django-Rest-API
 
-###The Weather App works on Weather24 CapeTown
+**The Weather App works on Weather24 CapeTown**
 
 to install them:
 
@@ -13,6 +13,7 @@ pip install markdown       # Markdown support for the browsable API.
 pip install django-filter  # Filtering support
 
 don't forget to add Add rest_framework to your INSTALLED_APPS setting.
+
 INSTALLED_APPS = (
     ...
     'rest_framework',
@@ -20,6 +21,7 @@ INSTALLED_APPS = (
 
 
 To install the required packages, it should be as easy as...
+
 $ pip install -r requirements.txt 
 
 
