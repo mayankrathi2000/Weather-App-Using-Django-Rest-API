@@ -27,10 +27,13 @@ $ pip install -r requirements.txt
 
 **Starting up Django**
 When starting up django, a few commands are required to get you up and running.
+
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py createsuperuser
-and finally
+
 python manage.py runserver
 
 
