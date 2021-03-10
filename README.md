@@ -1,11 +1,13 @@
 # Weather-App-Using-Django-Rest-API
 
-The Weather App works on Weather24 Cape Town
+###The Weather App works on Weather24 CapeTown
+
 to install them:
-Django:
+
+**Django:**
 pip install Django
 
-Django Rest Framework:
+**Django Rest Framework:**
 pip install djangorestframework
 pip install markdown       # Markdown support for the browsable API.
 pip install django-filter  # Filtering support
@@ -16,10 +18,12 @@ INSTALLED_APPS = (
     'rest_framework',
 )
 
+
 To install the required packages, it should be as easy as...
 $ pip install -r requirements.txt 
 
-Starting up Django
+
+**Starting up Django**
 When starting up django, a few commands are required to get you up and running.
 python manage.py makemigrations
 python manage.py migrate
